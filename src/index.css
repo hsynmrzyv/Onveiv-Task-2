@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Visby Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Visby Medium"),
+    url("/src/fonts/Visby/VisbyMedium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Visby Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Visby Bold"),
+    url("/src/fonts/Visby/VisbyBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Visby Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Visby Regular"),
+    url("/src/fonts/Visby/VisbyRegular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Visby Semibold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Visby Semibold"),
+    url("/src/fonts/Visby/VisbySemibold.woff") format("woff");
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 96px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 990px) {
+  .container {
+    max-width: 990px;
+    padding: 0 64px;
+  }
+}
+
+@media screen and (max-width: 909px) {
+  .container {
+    max-width: 909px;
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  .container {
+    max-width: 755px;
+  }
+}
+
+@media screen and (max-width: 584px) {
+  .container {
+    max-width: 584px;
+    padding: 0 24px;
+  }
+}

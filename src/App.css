@@ -1,0 +1,8 @@
+.App {
+  background-color: #131313;
+  font-family: "Visby Medium", sans-serif;
+}
+
+.empty {
+  height: calc(100vh + 462px);
+}
